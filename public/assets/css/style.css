@@ -1,0 +1,128 @@
+/* ============================= Elements ============================*/
+
+body {
+  background-color: #ffca63;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+/* ============================= IDs ============================*/
+
+#page-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#burger-pic {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#main-head {
+  font-family: sans-serif;
+  color: red;
+  font-size: 3rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#lists-div {
+  margin-bottom: 40px;
+}
+
+#submit-form {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+
+#not-devoured {
+  display: inline-block;
+}
+
+#devour-buttons {
+  display: inline-block;
+  list-style-type: none;
+}
+
+#devoured-column {
+  float: right;
+}
+
+#burger-input {
+  width: 400px;
+  height: 60px;
+  background-color: whitesmoke;
+  text-align: center;
+  margin: 10px;
+  border: outset lightgrey 1px;
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+
+#submit-button {
+  width: 150px;
+  padding: 10px;
+  background-color: steelblue;
+  color: white;
+  border-radius: 5px;
+  border: outset 2px steelblue;
+  font-size: 1.25rem;
+  margin: 20px auto;
+} #submit-button:hover {
+  cursor: pointer;
+} #submit-button:active {
+  background-color: skyblue;
+} #submit-button:focus {
+  border: inset 2px skyblue;
+}
+
+/* ============================= Classes ============================*/
+
+.burger-item {
+  display: inline-block;
+  width: 400px;
+  height: 40px;
+  background-color: whitesmoke;
+  text-align: center;
+  padding-top: 20px;
+  margin: 10px;
+  border: outset lightgrey 1px;
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+
+.devour-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 1.25rem;
+  background-color: steelblue;
+  color: white;
+  border-radius: 5px;
+  border: outset 2px steelblue;
+} .devour-button:hover {
+  cursor: pointer;
+} .devour-button:active {
+  background-color: skyblue;
+} .devour-button:focus {
+  border: inset 2px skyblue;
+}
+
+.burger-item-devoured {
+  width: 400px;
+  height: 40px;
+  color: grey;
+  background-color: whitesmoke;
+  text-align: center;
+  padding-top: 20px;
+  margin: 10px;
+  border: outset lightgrey 1px;
+  font-family: monospace;
+  font-size: 1.5rem;
+  text-decoration: line-through;
+}
