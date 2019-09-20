@@ -80,6 +80,10 @@ ol {
   border: inset 2px skyblue;
 }
 
+#bottom-paragraph {
+  margin-bottom: 20px;
+}
+
 /* ============================= Classes ============================*/
 
 .burger-item {

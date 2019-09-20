@@ -7,14 +7,14 @@
       <ol id="not-devoured">
         {{#each burgers}}
           {{#unless devoured}}
-            <li><p class="burger-item" value={{ id }}>{{ burger_name }}</p><button class="devour-button" value={{ id }}>Devour!</button></li>
+            <li value={{ id }}><p class="burger-item" value={{ id }}>{{ burger_name }}</p><button class="devour-button" value={{ id }}>Devour!</button></li>
           {{/unless}}
         {{/each}}
       </ol>
       <ul id="devoured-column">
         {{#each burgers}}
           {{#if devoured}}
-            <li><p class="burger-item-devoured" value={{ id }}>{{ burger_name }}</p></li>
+            <li><p class="burger-item-devoured" value={{ id }}>{{ id }} {{ burger_name }}</p></li>
           {{/if}}
         {{/each}}
       </ul>
@@ -27,7 +27,7 @@
       </div>
       <button id="submit-button" type="button">Submit</button>
     </form>
-    <p>Enter a burger you want to eat and click the "Submit" button.</p>
+    <p id="bottom-paragraph">Enter a burger you want to eat and click the "Submit" button.</p>
   </div>
 
 </div>
